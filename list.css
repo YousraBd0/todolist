@@ -1,6 +1,25 @@
-h1{
-    color: red;
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
+
+
 body{
-    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
 }
+
+.conatiner
+{
+    height: auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container  h1{
+color: black;
+}
+
