@@ -22,7 +22,7 @@ if(taskText !== "")
     check.classList.add("check");
 
     const removeimg=document.createElement("img");
-    removeimg.src="télécharger.png";
+    removeimg.src="remove.png";
       
 
     removeimg.onclick=function(){
@@ -44,7 +44,7 @@ if(taskText !== "")
         if (checkbox.checked) {
            removeimg.src="removeRed.png"
         } else {
-            removeimg.src="télécharger.png"
+            removeimg.src="remove.png"
         }
     });
 
