@@ -8,7 +8,7 @@
 body{
     display: flex;
     justify-content: center;
-    justify-items: center;
+   align-items: center;
 }
 
 .conatiner
@@ -23,3 +23,24 @@ body{
 color: black;
 }
 
+.conatiner form{
+    display: flex;
+    background-color: #ccc;
+}
+
+.conatiner form input{
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.conatiner form input:focus{
+outline: none;
+}
+
+.conatiner .tasks{
+margin-top: 10px;
+}
+
+.conatiner .tasks .task{
+margin-bottom: 10px;
+}
