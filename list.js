@@ -39,6 +39,16 @@ if(taskText !== "")
 
     // Réinitialisation de l'input
     input.value = "";
+
+    check.addEventListener("change", function () {
+        if (checkbox.checked) {
+           removeimg.src="removeRed.png"
+        } else {
+            removeimg.src="télécharger.png"
+        }
+    });
+
+
 }
 else{
     alert("Enter a task !");
