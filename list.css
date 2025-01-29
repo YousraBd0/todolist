@@ -8,39 +8,76 @@
 body{
     display: flex;
     justify-content: center;
-   align-items: center;
+    margin-top: 100px;
+ 
 }
 
-.conatiner
+.container
 {
     height: auto;
     width: 400px;
     display: flex;
     flex-direction: column;
+    background-color: #ccc;
+    justify-content: center;
+  
 }
 
 .container  h1{
 color: black;
+text-align: center;
 }
 
-.conatiner form{
+.container form{
     display: flex;
-    background-color: #ccc;
+     margin-left: 100px;
+  
+   
 }
 
-.conatiner form input{
+.container form input{
     padding: 10px;
     border: 1px solid #ccc;
 }
 
-.conatiner form input:focus{
+.container form input:focus{
 outline: none;
 }
 
-.conatiner .tasks{
-margin-top: 10px;
+.container form button{
+    background-color: #ffff;
+    border: 1px solid #ccc;
+    padding: 5px;
 }
 
-.conatiner .tasks .task{
-margin-bottom: 10px;
+.container .tasks{
+margin-top: 10px;
+margin-left: 20px;
+margin-bottom: 20px;
+margin-right: 20px;
 }
+
+.container .tasks .task{
+/* background-color: blue; */
+}
+
+.container .tasks .task label{
+ font-size: 1.5rem; 
+ margin-left: 10px;
+
+}
+
+.container .tasks .task input{
+  
+}
+
+input[type="checkbox"] {
+    accent-color: green; /* La case cochée devient rouge */
+    transform: scale(1.5); /* Ajuste la taille (1.5x plus grand) */
+}
+
+/* input[type="checkbox"]:checked {
+    appearance: none; /* Supprime le style natif */
+    /* background-color: #4CAF50; Change la couleur de fond */
+    /* border: 2px solid #4CAF50; */
+/* } */ 
