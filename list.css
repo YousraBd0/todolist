@@ -77,11 +77,12 @@ justify-content: space-between;
 }
 
 input[type="checkbox"] {
-    accent-color: green; /* La case cochée devient rouge */
+    accent-color: green; /* La case cochée devient vert */
     cursor: pointer;
     transform: scale(1.5); /* Ajuste la taille (1.5x plus grand) */
 }
 
+/* par defaut la case a  cohé tedi style par defaut tea systeme d'exploitation */
 /* input[type="checkbox"]:checked {
     appearance: none; /* Supprime le style natif */
     /* background-color: #4CAF50; Change la couleur de fond */
