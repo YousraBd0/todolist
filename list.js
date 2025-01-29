@@ -18,8 +18,23 @@ if(taskText !== "")
     const label=document.createElement("label");
     label.textContent=taskText;
 
-    taskDiv.appendChild(checkbox);
-    taskDiv.appendChild(label);
+    const check=document.createElement("div");
+    check.classList.add("check");
+
+    const removeimg=document.createElement("img");
+    removeimg.src="télécharger.png";
+      
+
+    removeimg.onclick=function(){
+        taskDiv.remove();
+    }
+
+   
+
+    check.appendChild(checkbox);
+    check.appendChild(label);
+    taskDiv.appendChild(check);
+    taskDiv.appendChild(removeimg); // Ajout de l'image
     tasksContainer.appendChild(taskDiv);
 
     // Réinitialisation de l'input

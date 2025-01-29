@@ -59,11 +59,16 @@ margin-right: 20px;
 
 .container .tasks .task{
 /* background-color: blue; */
+display: flex;
+justify-content: space-between; 
+/* align-items: center;  Aligne les éléments sur la même ligne */
+
 }
 
 .container .tasks .task label{
  font-size: 1.5rem; 
  margin-left: 10px;
+ /* margin-right: 50px; */
 
 }
 
@@ -73,6 +78,7 @@ margin-right: 20px;
 
 input[type="checkbox"] {
     accent-color: green; /* La case cochée devient rouge */
+    cursor: pointer;
     transform: scale(1.5); /* Ajuste la taille (1.5x plus grand) */
 }
 
@@ -81,3 +87,11 @@ input[type="checkbox"] {
     /* background-color: #4CAF50; Change la couleur de fond */
     /* border: 2px solid #4CAF50; */
 /* } */ 
+
+.container .tasks .task img{
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+    cursor: pointer; /*changer le cursuer pour montrer qu"il est cliquable*/
+}
+
